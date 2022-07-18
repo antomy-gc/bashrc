@@ -1,4 +1,4 @@
-git -C ~/.bashrc-git fetch
+git -C ~/.bashrc-git pull
 chmod +x ~/.bashrc-git/.bashrc
 chmod +x ~/.bashrc-git/.bash-profile
 mv ~/.bashrc-git/.bashrc ~/
