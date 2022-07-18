@@ -1,7 +1,6 @@
-git -C ~/.bashrc-git pull
-chmod +x ~/.bashrc-git/.bashrc
-chmod +x ~/.bashrc-git/.bash_profile
-cp ~/.bashrc-git/.bashrc ~/
-cp ~/.bashrc-git/.bash_profile ~/
-clear
+git -C ~/.bashrc-git pull > /dev/null
+chmod +x ~/.bashrc-git/.bashrc > /dev/null
+chmod +x ~/.bashrc-git/.bash_profile > /dev/null
+cp ~/.bashrc-git/.bashrc ~/ > /dev/null
+cp ~/.bashrc-git/.bash_profile ~/ > /dev/null
 [[ -f ~/.bashrc ]] && . ~/.bashrc
