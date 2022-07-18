@@ -1,3 +1,6 @@
 git -c ~/.bashrc-git fetch
-mv ~/.bashrc-git/* ~/
+chmod +x ~/.bashrc-git/.bashrc
+chmod +x ~/.bashrc-git/.bash-profile
+mv ~/.bashrc-git/.bashrc ~/
+mv ~/.bashrc-git/.bash-profile ~/
 [[ -f ~/.bashrc ]] && . ~/.bashrc
